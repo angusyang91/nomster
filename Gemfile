@@ -33,6 +33,9 @@ gem 'sass-rails'
 # Use Unicorn as the app server
 # gem 'unicorn'
 
+#Pagination
+gem 'kaminari'
+
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
