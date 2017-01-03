@@ -1,5 +1,16 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+// Decided to use googlefonts instead of advanced font
+@font-face {
+    font-family: 'kaushan_scriptregular';
+    src: url('/assets/kaushanscript-regular-webfont.woff2') format('woff2'),
+         url('/assets/kaushanscript-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
 
 .booyah-box {
   -moz-box-shadow: 1px 1px 2px 0 #d0d0d0;
@@ -28,4 +39,10 @@ body {
   background: url("/assets/wild_oliva.png");
   border-radius: 0;
   box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+.navbar-inverse .navbar-brand {
+  color:#DFEDF2;
+  font-family: 'Raleway', sans-serif;
+  font-size: 26px;
 }
