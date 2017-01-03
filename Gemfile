@@ -33,6 +33,7 @@ gem 'sass-rails'
 # Use Unicorn as the app server
 # gem 'unicorn'
 
+gem 'simple_form'
 #Pagination
 gem 'kaminari'
 
