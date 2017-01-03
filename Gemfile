@@ -36,6 +36,7 @@ gem 'sass-rails'
 gem 'simple_form'
 #Pagination
 gem 'kaminari'
+gem 'devise', '>= 3.2.4'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
