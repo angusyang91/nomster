@@ -38,6 +38,12 @@ gem 'simple_form'
 gem 'kaminari'
 gem 'devise', '>= 3.2.4'
 
+gem "geocoder", "1.3.4"
+
+# The Figaro gem will save our sensitive info in a Git Ignore YAML file.
+gem "figaro", ">= 1.0.0"
+
+
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
