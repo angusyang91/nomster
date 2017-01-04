@@ -13,6 +13,9 @@ class PlacesController < ApplicationController
     redirect_to root_path
   end
 
+  def show
+  end
+
   private
 
   def place_params
